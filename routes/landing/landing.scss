@@ -1,0 +1,127 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .hello {
+    background-image: URL(../../public/numbers.jpeg);
+    min-height: 100vh; // covers full viewport height
+    width: 100%;       // covers full width
+
+    display: flex;
+    justify-content: center;   // center left-right
+    align-items: center;  
+  
+    .bck {
+    //   background: linear-gradient(to right, #040404, #504e4d);
+    background-color: white;
+      height: 700px;
+      width: 900px;
+      margin-right: 10%;
+      margin-left: 20%;
+      border-radius: 40px;
+      box-shadow: 0 0 20px 5px rgb(198, 24, 24);
+
+
+    
+  
+    .title-section {
+    //   color: white;
+    color:black;
+      text-align: center;
+      font-size: 50px;
+      font-family: 'Chakra Petch', sans-serif;
+      margin-top:60px;
+      font-weight: bolder;
+    }
+  
+    .desc {
+      font-size: 20px;
+      margin-top: 3%;
+      font-family: 'Chakra Petch', sans-serif;
+     padding:30px;
+    }
+  
+    .output-area {
+    //   color: white;
+    color:black;
+      text-align: center;
+      margin-top: 5%;
+      font-size: 50px;
+      font-family: 'Chakra Petch', sans-serif;
+
+
+      .says{
+        color:black;
+        margin-bottom:99px;
+        font-weight: bolder;
+
+      }
+
+      .output-message {
+        margin-left: 15%;
+        margin-right: 15%;
+        font-size: 30px;
+        font-family: 'Chakra Petch', sans-serif;
+        color:black;
+        margin-top: -70px;
+        margin-bottom: 150px;
+      }
+    }
+  
+
+    .form-row {
+        display: flex;
+        justify-content: center; // center the pair in the parent
+        align-items: center;
+        gap: 20px; // space between input and button
+        margin-top: 40px;
+      }
+      
+      .input-area {
+        font-size: 20px;
+        padding: 10px 20px;
+        font-family: 'Chakra Petch', sans-serif;
+        border-radius: 8px;
+        border: 2px solid black;
+        color: black;
+      }
+  
+    .answ {
+      font-size: 20px;
+      font-family: 'Chakra Petch', sans-serif;
+      color:black;
+      margin-top: 10px;
+
+      &:hover {
+        background-color: rgb(198, 24, 24); 
+      }
+    }
+
+    .reset-btn{
+      font-size: 20px;
+      font-family: 'Chakra Petch', sans-serif;
+      color:black;
+      margin-top: 10px;
+
+      &:hover {
+        background-color: rgb(198, 24, 24); 
+      }
+    }
+
+    .click{
+      color: black;
+      text-decoration: none;
+      font-family: 'Chakra Petch', sans-serif;
+      padding: 30px;
+      font-size: 20px;
+      font-weight: 500;
+      align-self: center;
+
+
+
+    }
+  }
+}
+
